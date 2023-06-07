@@ -43,13 +43,10 @@ for column, column_properties in schema['column_info'].items():
         options[column] = st.sidebar.selectbox(column, column_properties['values'])
 
 # Load in model and encoder
-model_path = os.path.join('..','models', 'experiment_1', 'xg.pkl')
-with open(model_path, 'rb') as f:
+with open('models/experiment_1/xg.pkl', 'rb') as f:
     model = pickle.load(f)
 
-
-encoder_path = os.path.join('..', 'models', 'experiment_1', 'encoder.pkl')
-with open(encoder_path, 'rb') as f:
+with open('models/experiment_1/encoder.pkl', 'rb') as f:
     onehot = pickle.load(f)
 
 # Mean evening minutes value
