@@ -12,8 +12,7 @@
   - [Reference](#reference)
 
     ## Business problem
-    As an investor myself who invests in VOO for long term. Some desiring question I want to know is the future price of VOO.\
-    The problem here to solve is to forecast the stocks of VOO to see its trejectory.
+    Attracting new customers are always an expensive approach such as ads or sales. What am I interested in is to figure out a way to retain customers or understand why customers leave. Next, I want to build a machine learning model that classify customers who churn or not churn.
 
     ## Data source
     Retrieve data of VOO stocks from Yahoo Finance API. This webapp updates the VOO stock daily.\
