@@ -1,5 +1,8 @@
 # CustomerChurn
 
+![image](https://github.com/weibb123/CustomerChurn/assets/84426364/f87c3484-54ad-46bb-8798-164219a38a05)
+
+
 ## Table of Contents
 
   - [Business problem](#business-problem)
